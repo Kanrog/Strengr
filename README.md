@@ -13,7 +13,7 @@
 <p><span style="text-decoration: underline;">There are limitations to this design, the main one being power delivery to the steppers, we have set a max current draw of 1.5A, we do not recommend going any higher.</span></p>
 </blockquote>
 <p>The strengr board is identical at both ends, meaning the USB-A plugs are also the same. We recommend aquiring a pair of USB-A male-male cables to connect to the board.<br /><br />Please note that the pinout on the board is just a suggestion, you can use any pin for whatever you want.<br />As an example, if you are not using the CAN connector, you have an extra connector you can use for other things, like the thermistor on your hotend.</p>
-<p><span style="color: #ff0000;">There as a smal caveat to this, the PROBE and Filament runout sensor share the 5v pin</span>.</p>
+<p><span style="color: ##e62e00;">There as a smal caveat to this, the PROBE, ENDSTOPS and FILAMENT RUNOUT SENSOR all share the 5v pin.</span>.</p>
 <table style="width: 230px;">
 <tbody>
 <tr style="height: 13px;">
